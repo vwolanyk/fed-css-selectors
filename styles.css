@@ -1,2 +1,81 @@
 /* Move your styles here when you're ready to clean up your HTML file */
 /* Don't forget to link to this file in your HTML, otherwise your styles won't show up! */
+
+
+/*
+=======================
+Tag Selectors Exercises
+========================
+*/
+html {
+  font-size: 20px;
+}
+
+h1, h2 {
+  font-family: Futura, ‘Century Gothic’, AppleGothic, sans-serif
+}
+
+header { border-bottom: 2px solid #ff00bf;}
+
+.class-list{
+  list-style-type: square;
+
+}
+
+/*
+=========================
+Class Selectors Exercises
+=========================
+*/
+
+.item {
+  border: 5px groove #00ff55;
+}
+
+.even {
+  background-color: gray;
+}
+
+.odd{ background-color: black;
+      background-color: white;}
+
+
+/*
+======================
+ID Selectors Exercises
+=======================
+*/
+
+#item1 {
+  font-size: 30px;
+}
+
+#item2 {
+  text-align: right;
+}
+
+/*
+=====================
+Advanced Exercises
+=====================
+*/
+
+ol li p{ padding: 20px;
+background-color: gray;}
+
+ol li:nth-child(odd) p{
+  background-color: green;
+}
+
+a[title="Bitmaker"]:hover{
+  text-decoration: none;
+}
+
+ol ul a:hover{
+  background-color: yellow;
+
+}
+ol ul a:active{
+  background-color: red;
+
+}
